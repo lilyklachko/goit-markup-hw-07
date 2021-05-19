@@ -1,6 +1,6 @@
 body {
-  background-color: var(--body-hero-color);
-  color: var(--sub-text-color);
+  background-color: $body-hero-color;
+  color: $sub-text-color;
   font-family: Roboto, sans-serif;
   /* line-height: 1.71;
   font-size: 14px; */
@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--main-text-color);
+  color: $main-text-color;
   margin: 0;
 }
 img {

@@ -109,12 +109,11 @@ ul li {
   line-height: 1.14;
   display: inline-block;
 }
-.nav__list li,
-.header__address li {
+.nav__item {
   display: inline-block;
 }
-.nav__list > :not(li:last-child),
-.header__address > :not(li:last-child) {
+.nav__list > :not(.nav__item:last-child),
+.header__address > :not(.nav__item:last-child) {
   margin-right: 50px;
 }
 
