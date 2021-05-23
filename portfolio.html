@@ -8,8 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <header class="header">
@@ -17,13 +18,13 @@
             <nav class="nav">
                 <a href="./index.html" class="nav__logo"><span class="nav__logo-start">Web</span>Studio</a>
                 <ul class="nav__list">
-                    <li><a href="./index.html" class="nav__links">Студия</a></li>
-                    <li><a href="./portfolio.html" class="nav__links active">Портфолио</a></li>
-                    <li><a href="" class="nav__links">Контакты</a></li>
+                    <li class="nav__item"><a href="./index.html" class="nav__links ">Студия</a></li>
+                    <li class="nav__item"><a href="./portfolio.html" class="nav__links active">Портфолио</a></li>
+                    <li class="nav__item"><a href="" class="nav__links">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="header__address">
-                <li>
+                <li class="nav__item">
     
                     <a href="mailto:info@devstudio.com" class="header__contacts">
                         <svg class="header__icon-envelope">
@@ -31,7 +32,7 @@
                         </svg>
                         info@devstudio.com</a>
                 </li>
-                <li>
+                <li class="nav__item">
                     <a href="tel:+380961111111" class="header__contacts">
                         <svg class="header__icon-phone">
                             <use href="./images/symbol-defs.svg#icon-phone"></use>
@@ -215,51 +216,54 @@
             
         </main>
 
-     <footer class="footer">
+    <footer class="footer">
         <div class="container footer__all">
-            <address>
+            <address class="footer__contacts">
                 <div>
-                    <a href="./index.html" class="nav__logo nav__logo__down"><span class="nav__logo-start">Web</span><span>Studio</span></a>
+                    <a href="./index.html" class="nav__logo nav__logo__down"><span
+                            class="nav__logo-start">Web</span><span>Studio</span></a>
                     <p class="header__address__down">г. Киев, пр-т Леси Украинки, 26</p>
                     <ul class="footer__address">
-                        <li><a href="mailto:info@devstudio.com" class="header__contacts header__contacts__down">info@devstudio.com</a></li>
-                        <li><a href="tel:+380961111111" class="header__contacts header__contacts__down">+38 096 111 11 11</a></li>
+                        <li><a href="mailto:info@devstudio.com"
+                                class="header__contacts header__contacts__down">info@devstudio.com</a></li>
+                        <li><a href="tel:+380961111111" class="header__contacts header__contacts__down">+38 096 111 11
+                                11</a></li>
                     </ul>
                 </div>
             </address>
             <div class="footer__social">
                 <p class="footer__title">присоединяйтесь</p>
                 <ul class="icons-social__list">
-                    <li>
+                    <li class="icons-social__element">
                         <a href="" class="icon-social__item icon-social__item__down">
                             <svg class="icon-social__logo">
                                 <use href="./images/symbol-defs.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li>
+                    <li class="icons-social__element">
                         <a href="" class="icon-social__item icon-social__item__down">
                             <svg class="icon-social__logo">
                                 <use href="./images/symbol-defs.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li>
+                    <li class="icons-social__element">
                         <a href="" class="icon-social__item icon-social__item__down">
                             <svg class="icon-social__logo">
                                 <use href="./images/symbol-defs.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li>
+                    <li class="icons-social__element">
                         <a href="" class="icon-social__item icon-social__item__down">
                             <svg class="icon-social__logo">
                                 <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                             </svg>
                         </a>
-            
+    
                     </li>
-            
+    
                 </ul>
             </div>
             <form class="footer__form">
@@ -267,11 +271,11 @@
                     <span class="footer__input-text">Подпишитесь на рассылку</span>
                     <input type="email" name="email" class="footer__subsribtion" placeholder="E-mail">
                 </label>
-                <button type="submit" class="footer__submit-btn">Подписаться 
-                        <svg class="footer__send-icon">
-                            <use href="./images/symbol-defs.svg#icon-icon-send-modal"></use>
-                        </svg>
-                   
+                <button type="submit" class="footer__submit-btn">Подписаться
+                    <svg class="footer__send-icon">
+                        <use href="./images/symbol-defs.svg#icon-icon-send-modal"></use>
+                    </svg>
+    
                 </button>
             </form>
         </div>

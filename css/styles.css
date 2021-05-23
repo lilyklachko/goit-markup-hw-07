@@ -598,7 +598,7 @@ ul li {
   margin: 0 auto;
   flex-basis: calc(100% / 4 - 10px);
 }
-.icons-social__list li:not(:last-child) {
+.icons-social__list .icons-social__element:not(:last-child) {
   margin-right: 10px;
 }
 .icon-social__item {
@@ -629,7 +629,7 @@ ul li {
 .icon-social__item:focus .icon-social__logo {
   fill: var(--body-hero-color);
 }
-.icons-social__list svg {
+.icon-social__logo {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -909,7 +909,7 @@ address {
   box-shadow: var(--portfolio-shadow);
 }
 
-.portfolio__list h2 {
+.projects__title {
   margin-bottom: 4px;
 }
 
