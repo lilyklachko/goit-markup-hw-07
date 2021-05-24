@@ -539,6 +539,7 @@ ul li {
   cursor: pointer;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .form__agreement-text {
@@ -854,6 +855,7 @@ ul li {
 .header__contacts__down {
   justify-content: left;
   padding: 0;
+  line-height: 1.71;
 }
 
 .footer__address li:not(:last-child) {
